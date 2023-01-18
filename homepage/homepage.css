@@ -21,9 +21,36 @@ body{
 }
 #icons{
     display: flex;
-    width: 14%;
+    width: 20%;
     font-size: 25px;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#search>input{
+    border-radius: 30px;
+    height: 25px;
+    font-size: 15px;
+    padding-left: 10px;
+    width: 140px;
+    border: 2px solid black;
+}
+#search>button{
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+}
+#icons>a{
+    text-decoration: none;
+    color:black;
 }
 #logo{
    width: 100%;

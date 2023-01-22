@@ -1,0 +1,326 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#heading{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+    position: sticky;
+    top:0
+}
+#heading>h1{
+    width: 15%;
+    text-align: center;
+    font-family:cursive;
+    background-color: white;
+   margin-left: 50px;
+   padding-bottom: 6px;
+}
+#icons{
+    display: flex;
+    width: 20%;
+    font-size: 25px;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#search>input{
+    border-radius: 30px;
+    height: 25px;
+    font-size: 15px;
+    padding-left: 10px;
+    width: 140px;
+    border: 2px solid black;
+}
+#search>button{
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+}
+#icons>a{
+    text-decoration: none;
+    color:black;
+}
+#logo{
+   width: 100%;
+   text-align: center;
+}
+#logo>img{
+    width: 500px;
+    margin-top: 20px;
+}
+#nav{
+    text-align: center;
+    position: sticky;
+    top:15px;
+}
+#nav ul{
+ list-style: none;
+ 
+ margin: auto;
+ padding-left: 0px;
+ 
+}
+#nav ul li{
+    position: relative;
+    float: left;
+   
+}
+#nav ul li a{
+    padding: 25px;
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+    font-family:cursive;
+}
+ul.outerul{
+    display: inline-block;
+}
+#nav ul li a:hover{
+    color: black;
+    text-decoration: underline 2px solid black;
+}
+.bag{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 45%;
+}
+.right{
+    width: 45%;
+    margin-top:100px;
+}
+#itemcard{
+    display: flex;
+    justify-content: space-around;
+}
+#itemcard>div{
+    width: 45%;
+}
+#itemcard>div>img{
+    width: 80%;
+    height: auto;
+}
+#itemdetails>div>button{
+    margin: 5px;
+}
+#itemdetails>div>button:nth-child(1){
+    background-color:rgb(0, 76, 255);
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#itemdetails>div>button:nth-child(2){
+    background-color:rgb(0, 125, 0);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#itemdetails>div>button:nth-child(3){
+    background-color:rgb(255, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 2px 5px 2px 5px;
+    cursor: pointer;
+}
+#itemdetails>.disc{
+    margin-bottom: 70px;
+}
+#adrs>p{
+    font-weight: 600;
+}
+#adrs>input{
+    font-size: 14px;
+    padding: 15px;
+    padding-right: 347px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.promo>input[type="text"]{
+  padding-left: 10px;
+  padding: 15px;
+  font-size: 14px;
+  padding-right: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.promo>button{
+    padding: 15px 25px 15px 25px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 30px;
+}
+.promo>button:hover{
+    cursor: pointer;
+    border: 2px solid rgb(114, 114, 114);
+}
+.order>div{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+.order>hr{
+    width: 87%;
+    text-align: left;
+    margin-left: 0px;
+}
+.price{
+    color: rgb(65, 65, 65);
+    font-size: 15px;
+}
+.shiping{
+    color: rgb(65, 65, 65);
+    font-size: 15px;
+}
+.subtotal{
+    font-size: 18px;
+    font-weight: 600;
+}
+#placeorder>a>button{
+    font-size: 15px;
+    font-weight: 600;
+    padding:15px 202px 15px 202px;
+    margin-top: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: rgb(0, 81, 255);
+    color: white;
+    border-radius: 30px;
+    border:none;
+}
+#placeorder>a>button:hover{
+    border: 2px solid blue;
+    cursor: pointer;
+}
+.poster{
+    margin-top: 50px;
+    width: 100%;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-color: rgb(255, 135, 155);
+    text-align: center;
+    display: block;
+}
+.poster>h2{
+    color: white;
+}
+.poster>button{
+    padding: 15px 40px 15px 40px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.paypal{
+    margin-right: 80px;
+    text-align: center;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: rgb(83, 83, 83);
+    margin-bottom: 50px;
+}
+.paypal>img{
+    width: 80px;
+}
+#feedback{
+    width: 80%;
+    font-family: sans-serif;
+    border: 1px solid rgb(122, 122, 122);
+    margin: auto;
+    margin-top: 20px;
+}
+#feedback>p{
+    text-align: center;
+    font-weight: 700;
+}
+#feedback>p>a{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(70, 70, 70);
+    text-decoration: underline;
+}
+hr{
+    margin-top: 50px;
+}
+.footer{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.footer>div{
+    width: 33%;
+}
+.footer>div>ul{
+   list-style: none;
+}
+.footer>div>ul>li>b>a{
+    text-decoration: none;
+    color: black;
+}
+.footer>div>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+.follow{
+    width: 80%;
+    font-size: 25px;
+    margin: auto;
+}
+.follow>a{
+    text-decoration: none;
+    color: black;
+}
+#footerhr{
+    margin-top: 10px;
+}
+.footer2{
+ width: 81%;
+ margin: auto;
+ font-family: sans-serif;
+}
+.footer2>p:nth-child(1){
+    display: flex;
+    font-size: 12px;
+}
+.footer2>p>a{
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+.footer2>p:nth-child(2){
+    font-size: 12px; 
+    color: rgb(59, 59, 59);
+}
+.footerimg{
+    width: 81%;
+    margin: auto;
+    margin-bottom: 20px;
+}

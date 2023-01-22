@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <div id="heading">
+        <h1>Indian Eagle</h1>
+        <div id="icons">
+            <div id="search">
+                <input type="text" id="searchinp" placeholder="search here">
+                <button id="searchbtn"><i class="fa fa-search"></i></button>
+            </div>
+            <a href="account.html"><i class="fa fa-user"></i></a>
+            <a href="favorite.html"><i class="fa fa-heart"></i></a>
+            <a href=""><i class="fa fa-bag-shopping"></i></a>
+        </div>
+    </div>
+    <div id="logo">
+        <img src="images/logo.png" alt="">
+    </div>
+    <div id="nav">
+        <ul class="outerul">
+            <li><a href="#">New</a></li>
+            <li><a href="#">Man</a></li>
+            <li><a href="#">Woman</a></li>
+            <li><a href="#">Jeans</a></li>
+            <li><a href="#">Shoes & Accessories</a></li>
+            <li><a href="#">Swimsuits</a></li>
+            <li><a href="#">Clearance</a></li>
+        </ul>
+    </div>
+    <div class="bag">
+        <div class="left">
+            <div id="account">
+                <h2 id="name">Izhar's Bag</h2>
+            </div>
+            <div id="item">
+                <h3><span id="count" style="padding-right:5px;">0</span>item</h3>
+                <hr>
+            </div>
+            <div id="itemcard">
+                <div id="image">
+                    <img>
+                </div>
+                <div id="itemdetails">
+                    <h3>AE Ne(X)T Level Ripped Curvy High-Waisted Jegging Crop</h3>
+                    <h3>Price: $500 USD</h3>
+                    <p>quantity: 1</p>
+                </div>
+            </div>
+            <div class="poster">
+                <h2>Duties & Taxes covered by IE!</h2>
+                <button>Shop Woman</button>
+                <button>Shop Man</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="address">
+                <h2>Shipping Address</h2>
+                <hr>
+                <form action="" id="adrs">
+                    <p>Full Name</p>
+                    <input type="text" id="fname" placeholder="Enter full name">
+                    <p>Shipping Address</p>
+                    <input type="text" id="shipadrs" placeholder="enter full address here">
+                    <p>Zip code</p>
+                    <input type="text" id="zipcode" placeholder="enter zipcode here">
+                    <p>State</p>
+                    <input type="text" name="" id="state" placeholder="enter state here">
+                </form>
+            </div>
+            <h3>Offers</h3>
+            <div class="promo">
+                <input type="text" name="" id="promocode" placeholder="Promo code: New30">
+                <button id="promobtn">Apply</button>
+            </div>
+            <div class="order">
+                <h2>Order Summary</h2>
+                <hr>
+                <div class="price">
+                    <p>Merchandise:</p>
+                    <p id="priceitem"></p>
+                </div>
+                <div class="shiping">
+                    <p>Estimated Shipping:</p>
+                    <p id="shippingcharge">$0 USD</p>
+                </div>
+                <hr>
+                <div class="subtotal">
+                    <p>Sub Total</p>
+                    <p id="totalprice">$0 USD</p>
+                </div>
+                <div id="placeorder">
+                    <a href="https://www.ae.com/intl/en/checkout"><button>Pay & Place order</button></a>
+                </div>
+            </div>
+            <div class="paypal">
+                Available in Checkout! <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_200x51.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="feedback">
+        <p>Let us know how we're doing. <a href="https://aeo.co1.qualtrics.com/jfe/form/SV_eh2MAshrrFcWTUp">Give Feedback</a></p>
+    </div>
+    <div class="footer">
+        <div class="leftfooter">
+            <ul>
+                <li><b><a href="">Gift Cards</a></b></li>
+                <li>Give them what they really want.</li>
+            </ul>
+            <ul>
+                <li><b><a href="">Real Rewards</a></b></li>
+                <li>Earn $5 rewards, free shipping & more.</li>
+            </ul>
+            <ul>
+                <li><b><a href="">Real Rewards Credit Cards</a></b></li>
+                <li>Take an extra 25% off* your first purchase when you open and use a Real Rewards credit card!</li>
+                <li><a href="">Pay Bill</a>|<a href="">Apply Now</a></li>
+            </ul>
+            <ul>
+                <li><b><a href="">Mobile App</a></b></li>
+                <li>Shop & get exclusive deals right from your phone.</li>
+            </ul>
+            <ul>
+                <li><b><a href="">More Ways to Shop</a></b></li>
+                <li>In-store & curbside pickup, plus video chat with an In-Store Stylist!</li>
+            </ul>
+        </div>
+        <div class="centerfooter">
+            <ul>
+            <li><b><a href="">Store Locator</a></b></li>
+        </ul>
+        <ul>
+            <li><b><a href="">Track Order</a></b></li>
+        </ul>
+        <ul>
+            <li><b><a href="">Sign Up For Email</a></b></li>
+        </ul>
+        <ul>
+            <li><b><a href="">Sign Up For Texts</a></b></li>
+        </ul>
+        <ul>
+            <li><b><a href="">Shoprunner: Free Two Day Shipping</a></b></li>
+        </ul>
+        <ul>
+            <li><b><a href="">Give Back Box</a></b></li>
+        </ul>
+        <ul>
+            <li><a href="">About AEO</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Investers</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Careers</a></li>
+        </ul>
+        <ul>
+            <li><a href="">Site Map</a></li>
+        </ul>
+        </div>
+
+        <div class="rightfooter">
+            <ul>
+                <li><b>Have a Question?</b></li>
+            </ul>
+            <ul>
+                <li><a href="">Call Us: 1 (888) 232-4535</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Help</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Return Policy</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Email Us</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Feedback</a></li>
+            </ul>
+            <ul>
+                <li><b>Follow Us</b></li>
+            </ul>
+            <div class="follow">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>&nbsp;
+                <a href=""><i class="fa-brands fa-twitter"></i></a>&nbsp;
+                <a href=""><i class="fa-brands fa-instagram"></i></a>&nbsp;
+                <a href=""><i class="fa-brands fa-pinterest-p"></i></a>&nbsp;
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <ul>
+                <li><a href="">#AEJeans</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr id="footerhr">
+    <div class="footer2">
+        <p>
+        <a href="">Terms of Use</a>&nbsp;&nbsp;&nbsp;
+        <a href="">California Disclosures</a>&nbsp;&nbsp;&nbsp;
+        <a href="">Privacy Notices</a>&nbsp;&nbsp;&nbsp;
+        <a href="">Privacy Rights</a>&nbsp;&nbsp;&nbsp;
+        <a href="">Do Not Sell or Share My Personal Information</a>&nbsp;&nbsp;&nbsp;
+        <a href="">Brand Protection</a>&nbsp;&nbsp;&nbsp;
+        <a href="">Affiliate Program</a>&nbsp;&nbsp;&nbsp;
+        <a href="">Accessibility Statement</a>&nbsp;&nbsp;&nbsp;
+        <a href="">Cookie Settings</a>
+        </p>
+        <p>© 2023 AEO Management Co. All Rights Reserved</p>
+    </div>
+    <div class="footerimg">
+        <img src="https://www.ae.com/assets/ae/logos/Footer-logos.svg" alt="">
+    </div>
+</body>
+<script src="cart.js"></script>
+
+</html>
